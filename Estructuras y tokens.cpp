@@ -55,7 +55,7 @@ vector<Producto> productos;
 vector<Comentario> comentarios;
 vector<CarritoDeCompras> carritos;
 
-// Función para dividir strings por comas
+// FunciÃ³n para dividir strings por comas
 vector<string> split(const string& s, char delimiter) {
     vector<string> tokens;
     string token;
@@ -75,7 +75,7 @@ void cargarUsuarios() {
     }
 
     string linea;
-    // Saltar la primera línea (cabecera)
+    // Saltar la primera lÃ­nea (cabecera)
     getline(archivo, linea);
     
     while (getline(archivo, linea)) {
@@ -104,7 +104,7 @@ void cargarProductos() {
     }
 
     string linea;
-    // Saltar la primera línea (cabecera)
+    // Saltar la primera lÃ­nea (cabecera)
     getline(archivo, linea);
     
     while (getline(archivo, linea)) {
